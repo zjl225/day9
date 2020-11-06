@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+            background-image: url(image/1.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        #box1{
+            width: 1160px;
+            height: 55px;
+            margin: 0 auto;
+            color: white;
+            display: flex;
+        }
+       #box1>.Iconfent>a{
+           margin: 0px 40px 0px 0px;
+           color: white;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 55px;
+       }
+       #box1>#shouye>li>a{
+        margin: 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 15px;
+        line-height: 55px;
+     }
+     #box1>#shouye>li>a:hover{
+         color:white;
+     }
+     #box1>#chatuku>li>a{
+        margin: 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 15px;
+        line-height: 55px;
+     }
+     #box1>#chatuku>li>a:hover{
+         color: white;
+     }
+
+     #box1>#tubiaoku>.tubiaoku1>a{/* */
+        margin: 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 15px;
+        line-height: 55px;
+     }
+     #box1>#tubiaoku>.tubiaoku1>a:hover{
+        color: white;
+    }
+    #box1>#tubiaoku>.tubiaoku1>#tubiaoku11>li>a {
+        display: block;
+         height: 30px;
+         color: white;
+         font-size: 13px;
+         padding: 0px 0px 0px 14px;
+         display:none;
+     }
+     #box1 #tubiaoku .tubiaoku1 a:hover #box1 #tubiaoku .tubiaoku1 #tubiaoku11 li a{
+        display: table;  
+    }
+
+
+
+     #box1>#ziyuan>.ziyuan1>a{
+        margin: 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 15px;
+        line-height: 55px;
+     }
+ #box1>#ziyuan>.ziyuan1>a:hover{
+     color: white;
+ }
+    #box1>#ziyuan>.ziyuan1>#ziyuan11>li>a{
+        display:block;
+        height: 30px;
+        color:  white;
+        font-size: 14px;
+        padding: 0px 0px 0px 14px;
+        display: none;
+    }
+
+
+
+
+    #box1>#bangzhu>.bangzhu1>a{
+        margin: 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 15px;
+        line-height: 55px;
+     }
+     #box1>#bangzhu>.bangzhu1>a:hover{
+         color: white;
+     }
+    #box1>#bangzhu>.bangzhu1>#bangzhu11>li>a{
+        display:block;
+        height: 30px;
+        color:  white;
+        font-size: 14px;
+        padding: 0px 0px 0px 14px;
+        display: none;
+    }
+
+
+
+
+    #box1>#huodong>li>a{
+        margin: 0px 5px 0px 15px;
+        color:rgb(180, 168, 168);
+        font-size: 14px;
+        line-height: 55px;
+     }
+     #box1>#huodong>li>img{
+         height: 15px;
+     }
+   
+     #box1 .ys a{
+         height: 35px;
+         padding: 0px 0px 0px 200px;
+     }
+     #box1>.zhaopian{
+         width: 100%;
+         height: 500px;
+     }
+   .zhaopian{
+    width: 350px;
+    height: 200px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     }
+     .zhaopian.img{
+        max-width: 50%;
+        max-height: 50%;
+     }
+     #box2{
+        width: 700px;
+        height: 150px;
+        border: 1px solid transparent;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+     }
+     #box2>.b1{
+        display: flex;
+        position: absolute;
+        top: 18px;
+        left: 10px;
+     }
+     #box2>.b1>.tubiao,
+     .yonghu {
+        width: 38px;
+        height: 22px;
+        margin-left: 4px;
+        color: white;
+        border: 1px solid rgba(33, 16, 182, 0.397);
+        border-bottom: none;
+        border-radius: 4px 4px 0 0;
+        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+     }
+     #box2>.b1>.tubiao:hover{
+         border-color: rgb(45, 11, 236);
+     }
+     #box2>.b1>.yonghu:hover{
+        border-color: rgb(45, 11, 236);
+    }
+    #box2>#b2{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        height: 25px;
+     }
+   
+     #box2>#b2>.sousuo{
+        display: flex;
+        width: 700px;
+        height: 40px;
+        background-color:transparent;
+        top: 18px;
+        left: 10px;
+        border-radius:15px 15px 15px 15px;
+        border: 1px solid rgba(33, 16, 182, 0.397);
+        text-align: center;
+        color: rgba(228, 215, 215, 0.959);
+        font-size: 15px;
+     }
+
+     #box3{
+         width: 100%;
+         height: 110px;
+         position: relative;
+     }
+     #box3>.c111 {
+        display: flex;
+        width: 1050px;
+        height: 110px;
+        border: 1px transparent;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+     #box3>.c111>#c1 {
+        border: 1px transparent;
+        height: 110px;
+        width: 3150px;
+        animation: huadong 18s infinite 2s;
+       
+    }
+    #c1>img {
+        float: left;
+    }
+    @keyframes huadong {
+        25% {
+            margin-left: -1050px;
+        }
+
+        50% {
+            margin-left: -2100px;
+        }
+
+        75% {
+            margin-left: -1050px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+    #box4{
+        width: 100%;
+        display:flex;
+    }
+    #box4>.d{
+        width: 1920px;
+        height: 800px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    #box4>.d>.d1{
+        display: flex;
+        padding: 40px 11px 20px 11px;
+    }
+    #box4>.d>.d1:hover{
+        transform: scale(1.03);
+        transition: all 1s;
+    }
+    #box4>.d>.d2{
+        display: flex;
+        padding: 0px 11px 40px 11px;
+    }
+    #box4>.d>.d2:hover{
+        transform: scale(1.03);
+        transition: all 1s;
+    }
+
+   #box7{
+       width: 1270px;
+   }
+  
+   #box6{
+    width: 1270px;
+    height: 750px;
+    margin: 50px 0px;
+    position: relative;
+}
+#box6>.f {
+   display: flex;
+   width: 1270px;
+   height: 750px;
+   border: 1px transparent;
+   overflow: hidden;
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+
+}
+#box6>.f>#f1 {
+   border: 1px transparent;
+   height: 100%;
+   width: 1270px;
+   animation: shanghua 15s infinite 2s;
+  
+}
+
+@keyframes shanghua {
+   50% {
+       margin-top: -635px;
+   }
+
+   100% {
+       margin-left: 0px;
+   }
+   
+}
+#box8{
+    width: 1270px;
+    height: 2250px;
+}
+#box8>.h>img{
+    width: 1270px;
+    height: 750px;
+}
+
+#box9{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 40px 0px;
+}
+#box9>#i1{
+    height: 400px;
+}
+#box9>#i1>.i11{
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 15px 0px 15px 50px;
+}
+#box9>#i1>.i12{
+    height: 57px;
+    color: rgba(187, 184, 184, 0.856);
+    font-size: 12px;
+    margin: 10px 0px 15px 50px;
+    line-height: 19px;
+}
+#box9>#i1>.i13{
+    height: 57px;
+    color: rgba(187, 184, 184, 0.856);
+    font-size: 12px;
+    margin: 10px 0px 15px 50px;
+    line-height: 19px;
+}
+#box9>#i2{
+    height: 400px;
+    width: 500px;
+}
+#box9>#i2>.i21{
+    height: 40px;
+    color:rgba(187, 184, 184, 0.856);
+    line-height: 40px;
+    font-size: 19px;
+    margin: 15px 0px 15px 50px;
+}
+#box9>#i2>.i22{
+    height: 84px;
+    color: rgba(187, 184, 184, 0.856);
+    font-size: 12px;
+    margin: 10px 0px 15px 50px;
+    line-height: 28px;
+}
